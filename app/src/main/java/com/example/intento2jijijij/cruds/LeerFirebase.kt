@@ -1,5 +1,5 @@
 package com.example.intento2jijijij.cruds
-import androidx.compose.runtime.remember
+import androidx.compose.runtime.remember //se agrego por el remember
 import android.util.Log
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
