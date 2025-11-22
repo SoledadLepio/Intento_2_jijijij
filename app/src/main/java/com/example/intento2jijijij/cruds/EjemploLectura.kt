@@ -1,5 +1,5 @@
 package com.example.intento2jijijij.cruds
-
+import androidx.compose.runtime.remember
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -14,7 +14,7 @@ import com.example.intento2jijijij.model.SensorData
 
 @Composable
 fun EjemploLectura(){
-    var sensor by rememberSaveable  { mutableStateOf<SensorData?>(null) }
+    var sensor by remember  { mutableStateOf<SensorData?>(null) }
     var errorMsg by rememberSaveable { mutableStateOf<String?>(null) }
     var loading by rememberSaveable { mutableStateOf(false) }
 

@@ -1,5 +1,5 @@
 package com.example.intento2jijijij.cruds
-
+import androidx.compose.runtime.remember
 import android.util.Log
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -28,9 +28,9 @@ fun <T> LeerFirebase(
     field: String,
     valueType: Class<T>
 ): Triple<T?, Boolean, String?> {
-    var currentValue by rememberSaveable { mutableStateOf<T?>(null) }
-    var isLoading by rememberSaveable { mutableStateOf(true) }
-    var errorMessage by rememberSaveable { mutableStateOf<String?>(null) }
+    var currentValue by remember { mutableStateOf<T?>(null) }
+    var isLoading by remember { mutableStateOf(true) }
+    var errorMessage by remember { mutableStateOf<String?>(null) }
 
     val database = Firebase.database
     val myRef = database.getReference(field)
