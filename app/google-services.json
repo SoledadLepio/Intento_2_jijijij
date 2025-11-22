@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "939662042916",
+    "project_id": "intento-2-jijijij",
+    "storage_bucket": "intento-2-jijijij.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939662042916:android:808b570f3ce777eb5c35b1",
+        "android_client_info": {
+          "package_name": "com.example.intento2jijijij"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnSj-E9pow9xMLZNqO7xSOnbnyHb6RVno"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
