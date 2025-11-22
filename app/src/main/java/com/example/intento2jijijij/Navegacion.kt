@@ -10,7 +10,9 @@ import androidx.navigation.NavHostController
 fun NavegacionApp() {
     val navController = rememberNavController()
 
-    NavHost(navController = navController, startDestination = "inicio") {
+    NavHost(navController = navController, startDestination = "login") {
+        composable("login") { PantallaLogin(navController) }
+
         composable("inicio") { PantallaInicio(navController) }
         composable("umbrales") { PantallaUmbrales() }
         composable("volumen") { PantallaVolumen() }
