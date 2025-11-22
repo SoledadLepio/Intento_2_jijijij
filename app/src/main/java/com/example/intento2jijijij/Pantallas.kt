@@ -143,7 +143,7 @@ fun PantallaVolumen() {
 
         Slider(
             value = volumen,
-            onValueChange = { it },
+            onValueChange = { volumen = it },
             valueRange = 0f..100f
         )
 
