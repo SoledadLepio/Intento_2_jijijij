@@ -63,4 +63,5 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     implementation(platform("com.google.firebase:firebase-bom:33.1.0"))
     implementation("com.google.firebase:firebase-auth")//Linea nueva agregada para el login
+    implementation("androidx.compose.material:material-icons-extended") //importacion para iconos
 }
